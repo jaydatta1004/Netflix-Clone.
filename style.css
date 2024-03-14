@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    translate: none;
+}
+
+@media screen and (max-width :455px) {
+    section {
+        flex-direction: column;
+    }
+}
+
+.header {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+}
+
+.header .box {
+    opacity: 0.500;
+    width: 100%;
+    height: 89vh;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    /* background-color: aliceblue; */
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    width: 130px;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    width: 75px;
+    height: 30px;
+    margin: 8px;
+}
+
+.maintext {
+    display: flex;
+    color: rgb(246, 249, 251);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 90%;
+}
+
+.maintext span:first-child {
+    font-size: 33px;
+    display: flex;
+    position: relative;
+    top: 0;
+    font-weight: 1000;
+    z-index: 100;
+
+
+}
+
+.smalltxt {
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+
+}
+
+.smalltext {
+    font-size: 22px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: break-word;
+}
+
+.inputtype {
+    position: relative;
+    top: 0;
+    /* margin: 20px;
+    padding: auto;
+ */
+}
+
+.inputtype input {
+    position: relative;
+    top: 0%;
+    height: 50px;
+    width: 290px;
+    background-color: rgba(226, 228, 230, 0);
+    border-color: aliceblue;
+}
+
+.getbutton {
+    position: relative;
+    top: 0%;
+    background-color: red;
+    color: aliceblue;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+}
+
+.box1 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    justify-content: center;
+    margin: auto;
+    /* display: flex; */
+    max-width: calc(100% - 3rem);
+    align-items: center;
+}
+
+.box1 h2 {
+    position: relative;
+    /* bottom: 100px; */
+    /* left: 120px; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+}
+
+.box1 p {
+    position: relative;
+    /* bottom: 100px; */
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.tv img {
+    position: relative;
+    /* top: 80px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.tv video {
+    position: relative;
+    /* top: 30px; */
+    left: 55px;
+    bottom: 275px;
+    height: 240px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+    /* flex-direction: column; */
+
+}
+.tv{
+    position: relative;
+    top: 85px;
+    justify-content: center;
+    align-items: center;
+}
